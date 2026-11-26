@@ -16,6 +16,8 @@ from typing import List, Tuple
 import numpy as np
 import pandas as pd
 
+from opex_forecast.io import load_pharma_table
+
 
 def median_within_group_corr(df: pd.DataFrame, grp_col: str, x_col: str, y_col: str) -> float:
     corrs = [
@@ -56,12 +58,7 @@ def run_suite(data_dir: str) -> int:
         _print_report(checks)
         return 1
 
-    str_cols = {
-        "BELNR": str, "STBLG": str, "HKONT": str, "RACCT": str, "DOCLN": str,
-        "KOSTL": str, "RCNTR": str, "RFAREA": str, "EBELN": str, "EBELP": str,
-        "WERKS": str, "BUKRS": str, "RBUKRS": str, "BSCHL": str, "USNAM": str,
-    }
-    load = lambda f: pd.read_csv(os.path.join(data_dir, f), dtype=str_cols, low_memory=False)
+    load = lambda f: load_pharma_table(f, data_dir=data_dir)
 
     dim_comp = load("dim_company_code.csv")
     dim_plant = load("dim_plant.csv")
@@ -79,8 +76,8 @@ def run_suite(data_dir: str) -> int:
     anom = load("eval_anomaly_labels.csv")
 
     for df_tmp, cols in [
-        (act, ["STBLG", "KOSTL", "RFAREA", "EBELN", "WBS_ELEMENT"]),
-        (uj, ["STBLG", "RCNTR", "RFAREA", "EBELN", "PS_PSP_PNR"]),
+        (act, ["WBS_ELEMENT"]),
+        (uj, ["PS_PSP_PNR"]),
     ]:
         for c in cols:
             df_tmp[c] = df_tmp[c].fillna("")
@@ -508,7 +505,7 @@ def run_suite(data_dir: str) -> int:
     bschl_ok = bool(((act["SHKZG"] == "S") == (act["BSCHL"] == "40")).all() and ((act["SHKZG"] == "H") == (act["BSCHL"] == "50")).all())
 
     kr_dates = pd.to_datetime(kr_opex["BUDAT"])
-    wknd_share = float((kr_dates.dt.weekday >= 5).mean())
+    wknd_share = float((kr_dates.dt.day_of_week >= 5).mean())
     days_1_3_present = int((kr_dates.dt.day <= 3).sum()) > 100
     traffic_ok = (wknd_share < 0.08) and days_1_3_present
 

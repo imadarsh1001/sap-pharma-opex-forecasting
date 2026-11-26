@@ -24,23 +24,8 @@ import numpy as np
 import pandas as pd
 
 from opex_forecast.column_map import get_table_column_map
-
-STR_COLS = {
-    c: str
-    for c in [
-        "BELNR", "STBLG", "DOCLN", "HKONT", "RACCT", "EBELP", "BSCHL",
-        "BUKRS", "RBUKRS", "WERKS", "KOSTL", "RCNTR", "RFAREA", "EBELN", "USNAM",
-    ]
-}
-BLANK_STR_COLS = ["STBLG", "KOSTL", "RCNTR", "RFAREA", "EBELN"]
-
-
-def read_csv_safe(path: str) -> pd.DataFrame:
-    df = pd.read_csv(path, dtype=STR_COLS, low_memory=False)
-    for col in BLANK_STR_COLS:
-        if col in df.columns:
-            df[col] = df[col].fillna("")
-    return df
+from opex_forecast.config import BLANK_STR_COLS, STR_COLS
+from opex_forecast.io import load_pharma_table
 
 
 def sample_real_example(series: pd.Series) -> Any:
@@ -488,7 +473,7 @@ def build_catalog(data_dir: str, seed: int = 42, validation_checks_count: int = 
         path = os.path.join(data_dir, tbl["file_name"])
         if not os.path.exists(path):
             raise FileNotFoundError(f"Missing CSV table: {path}. Run generate_dataset.py first.")
-        df = read_csv_safe(path)
+        df = load_pharma_table(tbl["file_name"], data_dir=data_dir)
         loaded[tbl["table_name"]] = df
 
         expected_cols = [c["column_name"] for c in tbl["columns"]]
@@ -592,7 +577,7 @@ def build_catalog(data_dir: str, seed: int = 42, validation_checks_count: int = 
         },
         "csv_ingestion_spec": {
             "string_dtype_columns": sorted(STR_COLS.keys()),
-            "blank_string_columns_requiring_fillna": BLANK_STR_COLS,
+            "blank_string_columns_requiring_fillna": list(BLANK_STR_COLS),
         },
         "scenario_definitions": {
             "BASE": "Deterministic projection from 2025-12-31 realized state + FY26 FORWARD_CURVE FX + scheduled milestones.",

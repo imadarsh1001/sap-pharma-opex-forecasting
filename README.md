@@ -53,7 +53,7 @@ flowchart LR
 | Resource | Purpose | Status |
 | :--- | :--- | :--- |
 | [notebooks/00_sap_column_reference.ipynb](notebooks/00_sap_column_reference.ipynb) | Interactive SAP ↔ readable (`UPPER_SNAKE`) crosswalk, `DOCLN`/`BUZEI` dtype check, anti-leakage cheat sheet | **Live** |
-| [notebooks/01_opex_data_preparation.ipynb](notebooks/01_opex_data_preparation.ipynb) | Stage 1 exploration & canonical 4-condition recurring OPEX filter | **Starter** *(full Stage 1 pending)* |
+| [notebooks/01_opex_data_preparation.ipynb](notebooks/01_opex_data_preparation.ipynb) | Stage 1 OPEX data prep, 4-condition waterfall, PIT `CPUDT` & `COOI` audit, and Parquet tie-out | **Live** |
 | `notebooks/02_opex_and_driver_analysis.ipynb` | Cost-behavior segmentation, driver correlations & anomaly EDA | *Planned* |
 | `notebooks/03_forecasting_models.ipynb` | Leaf `(KOSTL, HKONT)` model training & `BP`/`RF` backtesting | *Planned* |
 | `notebooks/04_hierarchical_reconciliation.ipynb` | Monthly & quarterly Bottom-Up vs. MinT reconciliation benchmark | *Planned* |
