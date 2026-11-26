@@ -1,0 +1,105 @@
+BUKRS,GJAHR,MONAT,BELNR,BUZEI,KOSTL,HKONT,ANOMALY_TAG,GRANULARITY,ESTIMATED_IMPACT_USD,DESCRIPTION
+AP30,2022,5,0100000759,1,CC3030,630020,UNREVERSED_ACCRUAL,DOCUMENT,17038.15,Month-end accrual (ZA) missing auto-reversal (AB) in following period
+AP30,2022,10,0100001394,1,CC3030,630040,DUPLICATE_INVOICE,DOCUMENT,16957.92,"Cross-month duplicate vendor invoice matching prior-month LIFNR, BLDAT, and DMBTR"
+AP30,2023,2,0100000322,1,CC3010,620040,UNREVERSED_ACCRUAL,DOCUMENT,8023.03,Month-end accrual (ZA) missing auto-reversal (AB) in following period
+AP30,2023,12,0100001846,1,CC3050,650040,Q4_BUDGET_FLUSH,CELL_MONTH,76296.55,Abnormal Q4 use-it-or-lose-it discretionary vendor spend surge
+AP30,2023,12,0100001900,1,CC3010,620020,UNREVERSED_ACCRUAL,DOCUMENT,36479.9,Month-end accrual (ZA) missing auto-reversal (AB) in following period
+AP30,2024,4,0100000609,1,CC3010,620050,UNREVERSED_ACCRUAL,DOCUMENT,7130.06,Month-end accrual (ZA) missing auto-reversal (AB) in following period
+AP30,2024,10,0100001416,1,CC3010,620010,TRIAL_PAUSE_DROP,CELL_MONTH,-670981.88,Sudden 62% CRO spend drop due to temporary Phase III clinical hold
+AP30,2024,11,0100001697,1,CC3010,620010,TRIAL_PAUSE_DROP,CELL_MONTH,-684459.44,Sudden 62% CRO spend drop due to temporary Phase III clinical hold
+AP30,2024,12,0100001727,1,CC3050,650020,DUPLICATE_INVOICE,DOCUMENT,42546.23,"Cross-month duplicate vendor invoice matching prior-month LIFNR, BLDAT, and DMBTR"
+AP30,2024,12,0100001813,1,CC3020,630020,Q4_BUDGET_FLUSH,CELL_MONTH,57639.68,Abnormal Q4 use-it-or-lose-it discretionary vendor spend surge
+AP30,2025,6,0100000827,1,CC3030,630030,DUPLICATE_INVOICE,DOCUMENT,76585.16,"Same-month duplicate vendor invoice matching prior LIFNR, BLDAT, and DMBTR"
+AP30,2025,8,0100001142,1,CC3010,620050,DUPLICATE_INVOICE,DOCUMENT,37478.23,"Same-month duplicate vendor invoice matching prior LIFNR, BLDAT, and DMBTR"
+AP30,2025,12,0100001780,1,CC3040,640020,Q4_BUDGET_FLUSH,CELL_MONTH,29505.69,Abnormal Q4 use-it-or-lose-it discretionary vendor spend surge
+EU20,2022,1,0100000173,1,CC2010,620010,DUPLICATE_INVOICE,DOCUMENT,696018.97,"Same-month duplicate vendor invoice matching prior LIFNR, BLDAT, and DMBTR"
+EU20,2022,5,0100001110,1,CC2050,630020,DUPLICATE_INVOICE,DOCUMENT,85255.44,"Same-month duplicate vendor invoice matching prior LIFNR, BLDAT, and DMBTR"
+EU20,2022,6,0100001282,1,CC2040,630030,DUPLICATE_INVOICE,DOCUMENT,174145.65,"Cross-month duplicate vendor invoice matching prior-month LIFNR, BLDAT, and DMBTR"
+EU20,2022,11,0100002750,1,CC2040,630030,Q4_BUDGET_FLUSH,CELL_MONTH,297738.98,Abnormal Q4 use-it-or-lose-it discretionary vendor spend surge
+EU20,2022,11,0100002862,1,CC2020,620050,UNREVERSED_ACCRUAL,DOCUMENT,12536.14,Month-end accrual (ZA) missing auto-reversal (AB) in following period
+EU20,2023,1,0100000255,1,CC2020,620050,UNREVERSED_ACCRUAL,DOCUMENT,12994.13,Month-end accrual (ZA) missing auto-reversal (AB) in following period
+EU20,2023,2,0100000502,1,CC2040,630020,UNREVERSED_ACCRUAL,DOCUMENT,32825.79,Month-end accrual (ZA) missing auto-reversal (AB) in following period
+EU20,2023,5,0100001060,1,CC2030,620020,DUPLICATE_INVOICE,DOCUMENT,14083.24,"Same-month duplicate vendor invoice matching prior LIFNR, BLDAT, and DMBTR"
+EU20,2023,6,0100001572,1,CC2020,620040,UNREVERSED_ACCRUAL,DOCUMENT,14031.84,Month-end accrual (ZA) missing auto-reversal (AB) in following period
+EU20,2023,6,0100001579,1,CC2040,630040,UNREVERSED_ACCRUAL,DOCUMENT,16274.48,Month-end accrual (ZA) missing auto-reversal (AB) in following period
+EU20,2023,8,0100002043,1,CC2010,620010,TRIAL_PAUSE_DROP,CELL_MONTH,-1089093.42,Sudden 62% CRO spend drop due to temporary Phase III clinical hold
+EU20,2023,9,0100002311,1,CC2010,620010,TRIAL_PAUSE_DROP,CELL_MONTH,-1203413.83,Sudden 62% CRO spend drop due to temporary Phase III clinical hold
+EU20,2023,10,0100002412,1,CC2060,630040,DUPLICATE_INVOICE,DOCUMENT,40487.29,"Same-month duplicate vendor invoice matching prior LIFNR, BLDAT, and DMBTR"
+EU20,2023,10,0100002482,1,CC2080,650040,DUPLICATE_INVOICE,DOCUMENT,36447.81,"Same-month duplicate vendor invoice matching prior LIFNR, BLDAT, and DMBTR"
+EU20,2023,10,0100002521,1,CC2040,630020,DUPLICATE_INVOICE,DOCUMENT,145815.68,"Same-month duplicate vendor invoice matching prior LIFNR, BLDAT, and DMBTR"
+EU20,2023,11,0100002790,1,CC2060,630030,Q4_BUDGET_FLUSH,CELL_MONTH,195093.23,Abnormal Q4 use-it-or-lose-it discretionary vendor spend surge
+EU20,2023,11,0100002910,1,CC2050,630020,UNREVERSED_ACCRUAL,DOCUMENT,29517.51,Month-end accrual (ZA) missing auto-reversal (AB) in following period
+EU20,2023,12,0100003086,1,CC2070,640020,Q4_BUDGET_FLUSH,CELL_MONTH,55354.86,Abnormal Q4 use-it-or-lose-it discretionary vendor spend surge
+EU20,2023,12,0100003168,1,CC2040,630040,UNREVERSED_ACCRUAL,DOCUMENT,15665.12,Month-end accrual (ZA) missing auto-reversal (AB) in following period
+EU20,2024,1,0100000013,1,CC2010,620040,DUPLICATE_INVOICE,DOCUMENT,58857.56,"Cross-month duplicate vendor invoice matching prior-month LIFNR, BLDAT, and DMBTR"
+EU20,2024,2,0100000325,1,CC2070,640030,DUPLICATE_INVOICE,DOCUMENT,24595.45,"Same-month duplicate vendor invoice matching prior LIFNR, BLDAT, and DMBTR"
+EU20,2024,3,0100000632,1,CC2010,620020,DUPLICATE_INVOICE,DOCUMENT,149489.15,"Same-month duplicate vendor invoice matching prior LIFNR, BLDAT, and DMBTR"
+EU20,2024,5,0100001074,1,CC2060,630020,DUPLICATE_INVOICE,DOCUMENT,101628.82,"Same-month duplicate vendor invoice matching prior LIFNR, BLDAT, and DMBTR"
+EU20,2024,6,0100001388,1,CC2060,630020,DUPLICATE_INVOICE,DOCUMENT,219711.76,"Same-month duplicate vendor invoice matching prior LIFNR, BLDAT, and DMBTR"
+EU20,2024,7,0100001606,1,CC2030,620010,DUPLICATE_INVOICE,DOCUMENT,58537.55,"Same-month duplicate vendor invoice matching prior LIFNR, BLDAT, and DMBTR"
+EU20,2024,7,0100001822,1,CC2020,620020,TRIAL_PAUSE_DROP,CELL_MONTH,-148363.99,Sudden 62% CRO spend drop due to temporary Phase III clinical hold
+EU20,2024,8,0100002061,1,CC2020,620020,TRIAL_PAUSE_DROP,CELL_MONTH,-152833.48,Sudden 62% CRO spend drop due to temporary Phase III clinical hold
+EU20,2024,11,0100002799,1,CC2080,650040,Q4_BUDGET_FLUSH,CELL_MONTH,126947.32,Abnormal Q4 use-it-or-lose-it discretionary vendor spend surge
+EU20,2024,12,0100002998,1,CC2020,620040,DUPLICATE_INVOICE,DOCUMENT,40041.78,"Same-month duplicate vendor invoice matching prior LIFNR, BLDAT, and DMBTR"
+EU20,2024,12,0100003057,1,CC2040,630030,Q4_BUDGET_FLUSH,CELL_MONTH,179135.96,Abnormal Q4 use-it-or-lose-it discretionary vendor spend surge
+EU20,2025,3,0100000558,1,CC2060,630040,DUPLICATE_INVOICE,DOCUMENT,27759.85,"Same-month duplicate vendor invoice matching prior LIFNR, BLDAT, and DMBTR"
+EU20,2025,6,0100001528,1,CC2010,620020,TRIAL_PAUSE_DROP,CELL_MONTH,-638264.53,Sudden 62% CRO spend drop due to temporary Phase III clinical hold
+EU20,2025,7,0100001721,1,CC2010,620020,TRIAL_PAUSE_DROP,CELL_MONTH,-492650.49,Sudden 62% CRO spend drop due to temporary Phase III clinical hold
+EU20,2025,7,0100001825,1,CC2080,650040,UNREVERSED_ACCRUAL,DOCUMENT,16108.41,Month-end accrual (ZA) missing auto-reversal (AB) in following period
+EU20,2025,8,0100002090,1,CC2050,630020,UNREVERSED_ACCRUAL,DOCUMENT,36562.55,Month-end accrual (ZA) missing auto-reversal (AB) in following period
+EU20,2025,11,0100002789,1,CC2050,630020,Q4_BUDGET_FLUSH,CELL_MONTH,191249.29,Abnormal Q4 use-it-or-lose-it discretionary vendor spend surge
+EU20,2025,12,0100003027,1,CC2060,630030,Q4_BUDGET_FLUSH,CELL_MONTH,156679.55,Abnormal Q4 use-it-or-lose-it discretionary vendor spend surge
+US10,2022,2,0100000371,1,CC1030,620050,DUPLICATE_INVOICE,DOCUMENT,47934.48,"Cross-month duplicate vendor invoice matching prior-month LIFNR, BLDAT, and DMBTR"
+US10,2022,2,0100000385,1,CC1010,620050,DUPLICATE_INVOICE,DOCUMENT,30339.39,"Same-month duplicate vendor invoice matching prior LIFNR, BLDAT, and DMBTR"
+US10,2022,4,0100001212,1,CC1010,620010,DUPLICATE_INVOICE,DOCUMENT,1166320.92,"Same-month duplicate vendor invoice matching prior LIFNR, BLDAT, and DMBTR"
+US10,2022,4,0100001481,1,CC1090,620040,UNREVERSED_ACCRUAL,DOCUMENT,16673.61,Month-end accrual (ZA) missing auto-reversal (AB) in following period
+US10,2022,5,0100001811,1,CC1080,630020,UNREVERSED_ACCRUAL,DOCUMENT,42691.81,Month-end accrual (ZA) missing auto-reversal (AB) in following period
+US10,2022,8,0100002900,1,CC1010,620010,TRIAL_PAUSE_DROP,CELL_MONTH,-1161292.72,Sudden 62% CRO spend drop due to temporary Phase III clinical hold
+US10,2022,9,0100002963,1,CC1010,620010,TRIAL_PAUSE_DROP,CELL_MONTH,-1281675.75,Sudden 62% CRO spend drop due to temporary Phase III clinical hold
+US10,2022,9,0100002983,1,CC1010,620010,DUPLICATE_INVOICE,DOCUMENT,306093.28,"Same-month duplicate vendor invoice matching prior LIFNR, BLDAT, and DMBTR"
+US10,2022,11,0100003814,1,CC1060,630020,DUPLICATE_INVOICE,DOCUMENT,198879.65,"Same-month duplicate vendor invoice matching prior LIFNR, BLDAT, and DMBTR"
+US10,2022,11,0100003818,1,CC1060,630020,Q4_BUDGET_FLUSH,CELL_MONTH,326019.95,Abnormal Q4 use-it-or-lose-it discretionary vendor spend surge
+US10,2022,12,0100004192,1,CC1050,630030,Q4_BUDGET_FLUSH,CELL_MONTH,355327.02,Abnormal Q4 use-it-or-lose-it discretionary vendor spend surge
+US10,2022,12,0100004193,1,CC1070,640020,Q4_BUDGET_FLUSH,CELL_MONTH,87900.45,Abnormal Q4 use-it-or-lose-it discretionary vendor spend surge
+US10,2022,12,0100004194,1,CC1100,650020,Q4_BUDGET_FLUSH,CELL_MONTH,201424.12,Abnormal Q4 use-it-or-lose-it discretionary vendor spend surge
+US10,2022,12,0100004195,1,CC1110,650040,Q4_BUDGET_FLUSH,CELL_MONTH,168831.18,Abnormal Q4 use-it-or-lose-it discretionary vendor spend surge
+US10,2022,12,0100004361,1,CC1040,620050,UNREVERSED_ACCRUAL,DOCUMENT,17018.59,Month-end accrual (ZA) missing auto-reversal (AB) in following period
+US10,2023,1,0100000377,1,CC1030,620020,UNREVERSED_ACCRUAL,DOCUMENT,112740.69,Month-end accrual (ZA) missing auto-reversal (AB) in following period
+US10,2023,2,0100000713,1,CC1060,630030,UNREVERSED_ACCRUAL,DOCUMENT,47956.56,Month-end accrual (ZA) missing auto-reversal (AB) in following period
+US10,2023,3,0100001023,1,CC1030,620020,TRIAL_PAUSE_DROP,CELL_MONTH,-487595.58,Sudden 62% CRO spend drop due to temporary Phase III clinical hold
+US10,2023,4,0100001149,1,CC1010,620040,DUPLICATE_INVOICE,DOCUMENT,69497.87,"Same-month duplicate vendor invoice matching prior LIFNR, BLDAT, and DMBTR"
+US10,2023,4,0100001240,1,CC1060,630040,DUPLICATE_INVOICE,DOCUMENT,40236.29,"Same-month duplicate vendor invoice matching prior LIFNR, BLDAT, and DMBTR"
+US10,2023,4,0100001294,1,CC1030,620020,TRIAL_PAUSE_DROP,CELL_MONTH,-511617.66,Sudden 62% CRO spend drop due to temporary Phase III clinical hold
+US10,2023,8,0100002755,1,CC1010,620020,DUPLICATE_INVOICE,DOCUMENT,346530.26,"Same-month duplicate vendor invoice matching prior LIFNR, BLDAT, and DMBTR"
+US10,2023,9,0100003284,1,CC1010,620010,UNREVERSED_ACCRUAL,DOCUMENT,422307.36,Month-end accrual (ZA) missing auto-reversal (AB) in following period
+US10,2023,11,0100003852,1,CC1050,630020,Q4_BUDGET_FLUSH,CELL_MONTH,411289.28,Abnormal Q4 use-it-or-lose-it discretionary vendor spend surge
+US10,2023,11,0100004008,1,CC1010,620050,UNREVERSED_ACCRUAL,DOCUMENT,21933.83,Month-end accrual (ZA) missing auto-reversal (AB) in following period
+US10,2023,12,0100004247,1,CC1060,630030,Q4_BUDGET_FLUSH,CELL_MONTH,267134.99,Abnormal Q4 use-it-or-lose-it discretionary vendor spend surge
+US10,2023,12,0100004250,1,CC1100,650020,Q4_BUDGET_FLUSH,CELL_MONTH,164568.27,Abnormal Q4 use-it-or-lose-it discretionary vendor spend surge
+US10,2024,1,0100000357,1,CC1020,620020,UNREVERSED_ACCRUAL,DOCUMENT,8919.88,Month-end accrual (ZA) missing auto-reversal (AB) in following period
+US10,2024,2,0100000379,1,CC1110,650040,DUPLICATE_INVOICE,DOCUMENT,78137.25,"Cross-month duplicate vendor invoice matching prior-month LIFNR, BLDAT, and DMBTR"
+US10,2024,3,0100000743,1,CC1110,650040,DUPLICATE_INVOICE,DOCUMENT,51736.16,"Cross-month duplicate vendor invoice matching prior-month LIFNR, BLDAT, and DMBTR"
+US10,2024,4,0100001405,1,CC1060,630030,UNREVERSED_ACCRUAL,DOCUMENT,53903.91,Month-end accrual (ZA) missing auto-reversal (AB) in following period
+US10,2024,5,0100001565,1,CC1010,620010,TRIAL_PAUSE_DROP,CELL_MONTH,-1726538.11,Sudden 62% CRO spend drop due to temporary Phase III clinical hold
+US10,2024,6,0100001952,1,CC1010,620010,TRIAL_PAUSE_DROP,CELL_MONTH,-1754871.44,Sudden 62% CRO spend drop due to temporary Phase III clinical hold
+US10,2024,6,0100001999,1,CC1030,620020,DUPLICATE_INVOICE,DOCUMENT,382682.51,"Same-month duplicate vendor invoice matching prior LIFNR, BLDAT, and DMBTR"
+US10,2024,6,0100002013,1,CC1010,620040,DUPLICATE_INVOICE,DOCUMENT,111162.55,"Same-month duplicate vendor invoice matching prior LIFNR, BLDAT, and DMBTR"
+US10,2024,6,0100002155,1,CC1060,630040,UNREVERSED_ACCRUAL,DOCUMENT,28277.07,Month-end accrual (ZA) missing auto-reversal (AB) in following period
+US10,2024,7,0100002543,1,CC1060,630020,UNREVERSED_ACCRUAL,DOCUMENT,34344.02,Month-end accrual (ZA) missing auto-reversal (AB) in following period
+US10,2024,10,0100003386,1,CC1100,650020,DUPLICATE_INVOICE,DOCUMENT,123198.05,"Same-month duplicate vendor invoice matching prior LIFNR, BLDAT, and DMBTR"
+US10,2024,11,0100003810,1,CC1050,630030,DUPLICATE_INVOICE,DOCUMENT,179271.89,"Same-month duplicate vendor invoice matching prior LIFNR, BLDAT, and DMBTR"
+US10,2024,11,0100003864,1,CC1080,630020,Q4_BUDGET_FLUSH,CELL_MONTH,352770.38,Abnormal Q4 use-it-or-lose-it discretionary vendor spend surge
+US10,2024,12,0100004248,1,CC1050,630030,Q4_BUDGET_FLUSH,CELL_MONTH,328912.35,Abnormal Q4 use-it-or-lose-it discretionary vendor spend surge
+US10,2024,12,0100004249,1,CC1070,640030,Q4_BUDGET_FLUSH,CELL_MONTH,64267.67,Abnormal Q4 use-it-or-lose-it discretionary vendor spend surge
+US10,2025,2,0100000365,1,CC1090,620020,DUPLICATE_INVOICE,DOCUMENT,61927.6,"Cross-month duplicate vendor invoice matching prior-month LIFNR, BLDAT, and DMBTR"
+US10,2025,2,0100000703,1,CC1030,620010,UNREVERSED_ACCRUAL,DOCUMENT,453172.44,Month-end accrual (ZA) missing auto-reversal (AB) in following period
+US10,2025,3,0100001075,1,CC1020,620040,UNREVERSED_ACCRUAL,DOCUMENT,21971.19,Month-end accrual (ZA) missing auto-reversal (AB) in following period
+US10,2025,4,0100001145,1,CC1030,620010,TRIAL_PAUSE_DROP,CELL_MONTH,-1917613.19,Sudden 62% CRO spend drop due to temporary Phase III clinical hold
+US10,2025,4,0100001444,1,CC1100,650020,UNREVERSED_ACCRUAL,DOCUMENT,43002.38,Month-end accrual (ZA) missing auto-reversal (AB) in following period
+US10,2025,5,0100001470,1,CC1090,620020,DUPLICATE_INVOICE,DOCUMENT,91100.66,"Cross-month duplicate vendor invoice matching prior-month LIFNR, BLDAT, and DMBTR"
+US10,2025,5,0100001805,1,CC1030,620010,TRIAL_PAUSE_DROP,CELL_MONTH,-2016981.47,Sudden 62% CRO spend drop due to temporary Phase III clinical hold
+US10,2025,7,0100002382,1,CC1030,620050,DUPLICATE_INVOICE,DOCUMENT,72455.11,"Same-month duplicate vendor invoice matching prior LIFNR, BLDAT, and DMBTR"
+US10,2025,8,0100002914,1,CC1050,630020,UNREVERSED_ACCRUAL,DOCUMENT,40660.71,Month-end accrual (ZA) missing auto-reversal (AB) in following period
+US10,2025,11,0100003900,1,CC1050,630020,Q4_BUDGET_FLUSH,CELL_MONTH,453935.01,Abnormal Q4 use-it-or-lose-it discretionary vendor spend surge
+US10,2025,12,0100004230,1,CC1060,630030,Q4_BUDGET_FLUSH,CELL_MONTH,269357.29,Abnormal Q4 use-it-or-lose-it discretionary vendor spend surge
+US10,2025,12,0100004231,1,CC1110,650040,Q4_BUDGET_FLUSH,CELL_MONTH,203872.39,Abnormal Q4 use-it-or-lose-it discretionary vendor spend surge

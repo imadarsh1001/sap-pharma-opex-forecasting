@@ -1,0 +1,7 @@
+WERKS,PLANT_NAME,BUKRS,REGION,CITY,PLANT_TYPE
+US01,Titusville Commercial HQ,US10,US,"Titusville, NJ",Commercial_HQ
+US02,Raritan R&D Campus,US10,US,"Raritan, NJ",RD_Campus
+US03,Spring House R&D Campus,US10,US,"Spring House, PA",RD_Campus
+BE01,Beerse EMEA R&D Hub,EU20,EMEA,"Beerse, Belgium",RD_Campus
+NL01,Leiden EMEA Commercial Hub,EU20,EMEA,"Leiden, Netherlands",Commercial_HQ
+IN01,Mumbai/Hyderabad APAC Hub,AP30,APAC,"Mumbai / Hyderabad, India",Regional_Hub
